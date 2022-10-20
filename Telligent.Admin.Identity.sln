@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0ABB9EC2-07F1-4390-AC4E-F9BB3CD81279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{47EE65D6-B1A2-4B17-851B-52BDF2CEF688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{53305954-649A-478D-88FD-1484CE59E9F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Admin.Identity.Server", "src\applications\Telligent.Admin.Identity.Server\Telligent.Admin.Identity.Server.csproj", "{C4F63955-DB7F-4CA4-B099-9593B9DF3386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Admin.Identity.Application", "src\modules\Telligent.Admin.Identity.Application\Telligent.Admin.Identity.Application.csproj", "{CE078427-95AF-4B6B-A0F3-51514389DD72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Admin.Identity.Database", "src\modules\Telligent.Admin.Identity.Database\Telligent.Admin.Identity.Database.csproj", "{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Admin.Identity.Domain", "src\modules\Telligent.Admin.Identity.Domain\Telligent.Admin.Identity.Domain.csproj", "{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F63955-DB7F-4CA4-B099-9593B9DF3386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F63955-DB7F-4CA4-B099-9593B9DF3386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F63955-DB7F-4CA4-B099-9593B9DF3386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F63955-DB7F-4CA4-B099-9593B9DF3386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE078427-95AF-4B6B-A0F3-51514389DD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE078427-95AF-4B6B-A0F3-51514389DD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE078427-95AF-4B6B-A0F3-51514389DD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE078427-95AF-4B6B-A0F3-51514389DD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47EE65D6-B1A2-4B17-851B-52BDF2CEF688} = {0ABB9EC2-07F1-4390-AC4E-F9BB3CD81279}
+		{53305954-649A-478D-88FD-1484CE59E9F8} = {0ABB9EC2-07F1-4390-AC4E-F9BB3CD81279}
+		{C4F63955-DB7F-4CA4-B099-9593B9DF3386} = {47EE65D6-B1A2-4B17-851B-52BDF2CEF688}
+		{CE078427-95AF-4B6B-A0F3-51514389DD72} = {53305954-649A-478D-88FD-1484CE59E9F8}
+		{FA87578C-FF90-4E1F-82F3-CD9F0F7EC221} = {53305954-649A-478D-88FD-1484CE59E9F8}
+		{C89FDAB7-2895-43DC-80C2-C7D3490DFE0B} = {53305954-649A-478D-88FD-1484CE59E9F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CED98EF-4E87-4F9B-A303-22B258E82075}
+	EndGlobalSection
+EndGlobal
